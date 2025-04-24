@@ -123,7 +123,6 @@ export default function TradeDetail() {
                 <View className="bg-white rounded-xl p-4 mb-4">
                     <Text className="text-gray-800 text-lg font-semibold mb-1">Trade Summary:</Text>
                     <Text className="text-gray-600">Type: <Text className="font-bold capitalize">{type}</Text></Text>
-                    <Text className="text-gray-600">Amount: <Text className="font-bold">{amount} EUR</Text></Text>
                     <Text className="text-gray-600">Price: <Text className="font-bold">€{coin.market_data.current_price.eur.toFixed(2)}</Text></Text>
                     <Text className="text-gray-800 mt-2 font-bold">Total: €{totalPrice.toFixed(2)}</Text>
                 </View>
